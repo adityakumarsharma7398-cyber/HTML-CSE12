@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+<fieldset>
+<legend>Student Registration Form</legend>
+<br>
+<label for="fullname">Full Name:</label><br>
+<input type="text" id="fullname" name="fullname" placeholder="Enter your name" required><br><br>
+
+<label for="Fathers">Father's Name:</label><br>
+<input type="text" id="fathers" name="fathers" placeholder="Enter your Father's name" required><br><br>
+
+<label for="contact">Contact:</label><br>
+<input type="tel" id="contact" name="contact" placeholder="Enter your contact" required><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password" required><br><br>
+
+<label for="age">Age:</label><br>
+<input type="number" id="age" name="age"><br><br>
+
+<lable for="date">Date of birth:</lable><br>
+<input type="date" id="date" name="date"><br><br>
+<!-- Gender -->
+<label>Gender:</label><br>
+<input type="radio" id="male" name="gender" value="male" checked>
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label><br><br>
+
+
+<label for="course">Course:</label><br>
+<select id="course" name="course">
+<option value="CSE" selected>CSE</option>
+<option value="AIML">AIML</option>
+<option value="DS">DS</option>
+<option value="IoT">IoT</option>
+</select>
+<br><br>
+<!-- About -->
+<label for="about">About:</label><br>
+<textarea id="about" name="about" rows="4" placeholder="Tell us about yourself"></textarea>
+<br><br>
+<!-- Buttons -->
+<div class="buttons">
+<button type="submit">Register</button>
+<button type="reset">Clear</button>
+</div>
+
+</fieldset>
+
+</form>
+</body>
+</html>
